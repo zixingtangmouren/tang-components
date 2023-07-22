@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": false,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "jsx": "react",
+    "importHelpers": true,
+    "allowJs": true,
+    "downlevelIteration": true,
+    "target": "ES6",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "paths": {
+      "src/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "lib"],
+  "include": ["src"]
+}
