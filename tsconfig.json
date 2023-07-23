@@ -9,20 +9,23 @@
     "noFallthroughCasesInSwitch": false,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "declaration": true,
+    "declaration": false,
     "jsx": "react",
     "importHelpers": true,
     "allowJs": true,
     "downlevelIteration": true,
-    "target": "ES6",
+    "target": "ES5",
     "baseUrl": "./",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "strict": true,
+    "sourceMap": true,
     "paths": {
       "src/*": ["./src/*"]
-    }
+    },
+    "lib": ["ES2016", "DOM"],
+    "module": "CommonJS"
   },
   "exclude": ["node_modules", "lib"],
   "include": ["src"]
